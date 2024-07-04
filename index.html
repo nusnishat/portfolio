@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Epitome</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+ 
+    <style>
+        .justify{
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body id="top">
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <!-- site header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <h1 class="font-bold text-white text-3xl">Portfolio</h1>
+            </a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-main-nav">
+                <li class="current"><a class="smoothscroll" href="#intro" title="intro">Intro</a></li>
+                <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll" href="#services" title="services">Education</a></li>
+                <li><a class="smoothscroll" href="#works" title="works">Projects</a></li>
+                <li><a class="smoothscroll" href="#contact" title="contact us">Contact</a></li>	
+            </ul>
+
+            <ul class="header-social">
+                <li><a href="https://www.linkedin.com/in/nusnishat"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/nusnishat"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- intro
+    ================================================== -->
+    <section id="intro" class="s-intro target-section">
+
+        <div class="row intro-content">
+
+            <div class="column large-9 mob-full intro-text">
+                <h3>Hello, I'm Nusrat Jahan Nishat</h3>
+                <h2 class="text-white text-4xl md:text-6xl lg:text-8xl typewriter">
+                    Coder,<br>
+                    MERN Stack Web Developer
+                </h2>
+            </div>
+
+            <div class="intro-scroll">
+                <a href="#about" class="intro-scroll-link smoothscroll">
+                    Scroll For More
+                </a>
+            </div>
+
+            <div class="intro-grid"></div>
+            <div class="intro-pic"></div>
+
+        </div> <!-- end row -->
+
+    </section> <!-- end intro -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="about-me">
+
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">About Me</h2>
+                </div>
+            </div>
+
+            <div class="row about-me__content" data-aos="fade-up">
+                <div class="column large-full about-me__text">
+                    <p class="lead">
+                        Hello! I'm a passionate coder and a dedicated Fullstack MERN Web Developer with a strong educational background from the Department of Electrical and Computer Engineering at Rajshahi University of Engineering and Technology. 
+                    </p>
+
+                    <p class="justify">
+                        My academic journey has equipped me with a robust understanding of both hardware and software technologies, enabling me to approach problems with a well-rounded perspective. I specialize in the MERN stack, which includes MongoDB, Express.js, React.js, and Node.js, and I'm proficient in a variety of programming languages such as C, C++, Python, and MATLAB. My web development expertise extends to HTML, CSS, JavaScript, TypeScript, React.js, API, Bootstrap, Tailwind CSS, Firebase, Material UI, Node.js, and Express.js. I am adept at using databases like MySQL and MongoDB, ensuring that my applications are both robust and scalable.
+                    </p>
+                    <br>
+                    <p class="justify">
+                        Collaboration and teamwork are at the core of my work ethic. I enjoy working with others to bring ideas to life and create impactful projects. My goal is to develop my career as a software engineer or web developer, where I can leverage my skills and creativity to make a meaningful difference. Whether it's developing a full-fledged web application from scratch or optimizing existing systems, I am committed to delivering excellence and pushing the boundaries of what's possible.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="row about-me__buttons">
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <a href="#0" class="btn btn--stroke full-width">Hire Me</a>
+                </div>
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <button class="btn btn--primary full-width" onclick="downloadCV()">Download CV</button>
+                </div>
+            </div>
+
+        </div> <!-- end about-me -->
+
+        <div class="about-experience md:mx-10">
+
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">Education</h2>
+                </div>
+            </div>
+
+            <div class="about-experience__timeline">
+
+                <div class="" data-aos="fade-up">
+                    <div class="timeline">
+
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--education"></span>
+                        </div>
+
+                        <div class="grid grid-cols-1 lg:grid-cols-2">
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <p class="timeline__timeframe">February 2019 - May 2024</p>
+                                    <h3 class="item-title">Rajshahi University of Engineering and Technology</h3>
+                                    <h5>Bachelor of Science </h5>
+                                    <h6 class="font-bold">Dept. of Electrical and Computer Engineering</h6>
+                                    <p class="font-semibold">CGPA: 3.65</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    
+                                </div>
+                            </div>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <p class="timeline__timeframe">Jun 2016 - June 2018</p>
+                                    <h3 class="item-title">Govt. Hazi Muhammad Mohsin College, Chattogram</h3>
+                                    <h5>Higher Secondary School Certificate</h5>
+                                    <p class="font-semibold">GPA: 5</p>
+                                </div>
+                                <div class="timeline__desc">
+                                   
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end about-experience -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services ss-dark target-section">
+
+        <div class="shadow-overlay"></div>
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading section-heading--centerbottom">Capabilities</h2>
+
+                <p class="section-desc">
+                    My passion and goal is to help you make your business standout.
+                </p>
+            </div>
+        </div> <!-- end heading-block -->
+
+        <div class="row services-list block-large-1-3 block-medium-1-2 block-tab-full">
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Brand Identity</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Illustration</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Web Design</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Product Strategy</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">UI/UX Design</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Mobile Design</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
+                </div>
+            </div>
+
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- CTA
+    ================================================== -->
+    <section class="s-cta ss-dark">
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-desc">
+                    Need a great reliable web hosting?
+                </h2>
+            </div>
+        </div> <!-- end heading-block -->
+
+        <div class="row cta-content" data-aos="fade-up">
+            <div class="column large-full">
+                <p>
+                We highly recommend <a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a>.
+                Powerful web and Wordpress hosting. Guaranteed.
+                Starting at $2.95 per month.
+                </p>
+
+                <a href="https://www.dreamhost.com/r.cgi?287326" class="btn full-width">Get Started</a>
+            </div>
+        </div> <!-- end ad-content -->
+
+    </section> <!-- end s-cta -->
+
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading section-heading--centerbottom">Selected Works</h2>
+                <p class="section-desc">
+                    Here are some of my selected works I have done lately. Feel free to 
+                    check them out.
+                </p>
+            </div>
+        </div> <!-- end heading-block -->
+
+        <div class="masonry-wrap">
+
+            <div class="masonry">
+                <div class="grid-sizer"></div>
+    
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-city-building.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                <img src="images/Screenshot (3).png" 
+                                     srcset="images//Screenshot (3).png 1x, images//Screenshot (3).png@2x.jpg 2x" alt="">
+                            </a>    
+                            <a href="https://drive.google.com/file/d/1gC4jRE79D2_JRhPC9xgVNNmeghJOL3wO/view" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+    
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Mall Website
+                            </h4>
+                            <p class="item-folio__cat">
+                                <a href="https://github.com/nusnishat/Mall">Source Code</a>
+                            </p>
+                        </div>
+    
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+    
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                <img src="images/Screenshot (4).png" 
+                                     srcset="images/Screenshot (4).png.jpg 1x, images/Screenshot (4)@2x.png 2x" alt="">
+                            </a>
+                            <a href="https://drive.google.com/file/d/1gierAmANVFanAnrD2brBtlc_wIiDTAFO/view" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Student Job Site
+                            </h4>
+                            <p class="item-folio__cat">
+                                <a href="https://github.com/nusnishat/student-jobsite/tree/main">Source Code</a>
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/Screenshot (5).png" class="thumb-link" data-size="1050x700">
+                                <img src="images/Screenshot (5).png"
+                                     srcset="images/Screenshot (5).png 1x, images/Screenshot (5)@2x.png 2x" alt="">
+                            </a>
+                            <a href="https://nusnishat.github.io/Music-Player/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Music Player
+                            </h4>
+                            <p class="item-folio__cat">
+                                <a href="https://github.com/nusnishat/Music-Player">Source Code</a>
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/Screenshot (6).png" class="thumb-link" data-size="1050x700">
+                                <img src="images/Screenshot (6).png" 
+                                     srcset="images/Screenshot (6).png 1x, images/Screenshot (6)g@2x.png 2x" alt="">
+                            </a>
+                            <a href="https://news-dragon-client-4abb2.web.app/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                News Portal
+                            </h4>
+                            <p class="item-folio__cat">
+                                <a href="https://github.com/nusnishat/news-portal">Source Code</a>
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/Screenshot (10).png" class="thumb-link" data-size="1050x700">
+                                <img src="images/Screenshot (10).png" 
+                                     srcset="images/Screenshot (10).png 1x, images/Screenshot (10)@2x.png 2x" alt="">
+                            </a>
+                            <a href="https://nusnishat.github.io/penguin-fashion/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Responsive Penguin Fashion
+                            </h4>
+                            <p class="item-folio__cat">
+                                <a href="https://github.com/nusnishat/penguin-fashion">Sorce Code</a>
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+        
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/Screenshot (12).png" class="thumb-link" data-size="1050x700">
+                                <img src="images/Screenshot (12).png"
+                                     srcset="Screenshot (12).png 1x, images/Screenshot (12)@2x.png 2x" alt="">
+                            </a>
+                            <a href="https://6686b48dbc2b250fa0cc8349--cerulean-praline-562bb3.netlify.app/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Summer Sale
+                            </h4>
+                            <p class="item-folio__cat">
+                                <a href="https://github.com/nusnishat/summer-scale-website">Source Code</a>
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+            </div> <!-- end masonry -->
+
+        </div> <!-- end masonry-wrap -->
+
+    </section> <!-- end s-work -->
+
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact ss-dark target-section">
+
+        <div class="row heading-block" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading">Get In Touch</h2>
+            </div>
+        </div>
+
+        <div class="row contact-infos" data-aos="fade-up" data-aos-anchor=".contact-main">
+
+            <div class="column large-5 medium-full ">
+                <i class="fa fa-address-book text-white text-3xl" aria-hidden="true"></i>
+                <span class="phone text-3xl">01878896615</span><br>
+                <i class="fa fa-envelope text-white text-3xl" aria-hidden="true"></i>
+                <span class="phone ms-4 text-3xl">nusnishat1999@hmail.com</span><br>
+                <i class="fab fa-linkedin text-white text-3xl" aria-hidden="true"></i>
+                <span class="phone ms-4 text-3xl">https://www.linkedin.com/in/nusnishat/</span><br>
+                <i class="fab fa-github text-white text-3xl" aria-hidden="true"></i>
+                <span class="phone ms-4 text-3xl">https://github.com/nusnishat</span>
+            </div>
+
+            <div class="column large-7 medium-full contact-social">
+                <h4>Connect with me</h4>
+                <h5 class="text-white phone text-4xl">Let's Work Together</h5>
+            </div>
+
+        </div> <!-- end contact-infos -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="column large-full ss-copyright">
+                <span>Design by <a href="https://www.styleshout.com/">Nusrat Jahan Nishat</a></span>
+            </div>            
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
