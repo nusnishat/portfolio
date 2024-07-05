@@ -51,6 +51,9 @@
  * # base style overrides
  *
  * ------------------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
  html {
   font-size: 10px;
 }
@@ -1982,11 +1985,16 @@ input::-moz-focus-inner {
 }
 
 .intro-text h1 {
+  font-family: "Roboto", sans-serif;
   font-size: 7.8rem;
   font-weight: 500;
   line-height: 1.179;
   color: #ffffff;
   margin-top: 0;
+}
+.intro-text h2 {
+  font-family: "Roboto", sans-serif;
+  
 }
 
 .intro-scroll {
@@ -2042,7 +2050,9 @@ input::-moz-focus-inner {
   .intro-text h3 {
     font-size: 2rem;
   }
-
+  .font{
+    font-family: "Lato", sans-serif;
+  }
   .intro-text h1 {
     font-size: 7rem;
   }
@@ -3623,26 +3633,27 @@ html[data-useragent*='rv:11.0'] .ss-go-top::after {
 }
 
 /*# sourceMappingURL=main.css.map */
-.typewriter {
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 8px solid;
-  animation: typing 4s steps(36, end), blink 0.75s step-end infinite;
+@keyframes sizeChange {
+  from { font-size: 20px; }
+  to { font-size: 30px; }
 }
 
-@keyframes typing {
-  from { width: 0; }
-  to { width: 100%; }
+
+@keyframes spacing {
+  from { letter-spacing: 1px; }
+  to { letter-spacing: 5px; }
 }
 
-@keyframes blink {
-  from, to { border-color: transparent; }
-  50% { border-color: rgb(245, 242, 242); }
+.size-animate {
+  animation: spacing 2s forwards;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
 }
+
 
 
 body {
-  font-family: 'Arial', sans-serif;
+  
   color: #fff;
   margin: 0;
   padding: 0;
@@ -3731,6 +3742,7 @@ body {
 .skill:hover {
   transform: translateY(-10px);
   background: #636e72;
+  color: white;
 }
 
 .skill::after {
@@ -3757,7 +3769,9 @@ body {
   font-size: 1em;
   color: #dfe6e9;
 }
-
+.font{
+    font-family: "Roboto", sans-serif;
+}
 @keyframes fadeInDown {
   0% {
       opacity: 0;
