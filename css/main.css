@@ -1977,8 +1977,8 @@ input::-moz-focus-inner {
 
 .intro-text h3 {
   font-family: "Roboto", sans-serif;
-  font-size: 2.4rem;
-  font-weight: 500;
+  font-size: 3.5rem;
+  font-weight: 600;
   line-height: 1.333;
   color: #cf1767;
   margin-top: 0;
@@ -1987,20 +1987,20 @@ input::-moz-focus-inner {
 .intro-text h1 {
   font-family: "Roboto", sans-serif;
   font-size: 7.8rem;
-  font-weight: 500;
+  font-weight: 800;
   line-height: 1.179;
   color: #ffffff;
   margin-top: 0;
 }
 .intro-text h2 {
   font-family: "Roboto", sans-serif;
-  
+  font-weight: 800;
 }
 
 .intro-scroll {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   line-height: 2;
   text-transform: uppercase;
   letter-spacing: .3rem;
@@ -2012,7 +2012,7 @@ input::-moz-focus-inner {
 
 .intro-scroll a {
   display: inline-block;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.705);
   position: relative;
   padding-right: 8.8rem;
 }
@@ -2033,7 +2033,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 @media screen and (max-width:1400px) {
   .intro-text h3 {
-    font-size: 2.2rem;
+    font-size: 3.5rem;
   }
 
   .intro-text h1 {
@@ -2048,7 +2048,7 @@ input::-moz-focus-inner {
   }
 
   .intro-text h3 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .font{
     font-family: "Lato", sans-serif;
@@ -2102,7 +2102,7 @@ input::-moz-focus-inner {
   }
 
   .intro-text h3 {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
   }
 
   .intro-text h1 {
@@ -2153,7 +2153,7 @@ input::-moz-focus-inner {
   }
 
   .intro-scroll {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     left: 30px;
   }
 
